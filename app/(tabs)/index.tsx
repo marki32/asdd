@@ -4,7 +4,7 @@ import Header from '@/components/notes/Header';
 import UserProfile from '@/components/notes/UserProfile';
 import Tabs from '@/components/notes/Tabs';
 import NoteCard from '@/components/notes/NoteCard';
-import useNoteStore from '@/store/noteStore';
+import useNoteStore from '../../store/noteStore';
 
 export default function HomeScreen() {
   const notes = useNoteStore((state) => state.notes);

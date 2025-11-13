@@ -4,7 +4,7 @@ import Header from '@/components/add-note/Header';
 import NoteForm from '@/components/add-note/NoteForm';
 import { ThemedView } from '@/components/themed-view';
 import { ThemedText } from '@/components/themed-text';
-import useNoteStore from '@/store/noteStore';
+import useNoteStore from '../../store/noteStore';
 import { router } from 'expo-router';
 
 export default function AddScreen() {
